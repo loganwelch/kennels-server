@@ -3,5 +3,9 @@
     "python.linting.pylintEnabled": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportGeneralTypeIssues": "none"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }
